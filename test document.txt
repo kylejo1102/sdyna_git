@@ -1,0 +1,30 @@
+[Settint]
+git init
+
+git remote add origin 주소
+
+git pull origin master
+
+
+[Pull]
+
+git pull origin master
+
+
+
+[Push]
+
+git status
+#깃폴더와 깃레퍼지토리 사이의 싱크상태를 체크
+
+git add .
+# 여러파일의 경우 모든파일을 트레킹하겠다.
+
+git commit-m "message"
+# 깃에 푸쉬를 할 때 달리기 위한 코밋 달기
+
+git push origin master
+#실제로 깃에 푸쉬를 해야 변경내용이 올라감
+
+
+https://github.com/memoming/memoming_gitTest
