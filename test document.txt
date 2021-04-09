@@ -1,5 +1,6 @@
-[Settint]
+[Setting]
 git init
+# git과 내 폴더를 연결
 
 git remote add origin 주소
 
@@ -19,7 +20,7 @@ git commit -m "message"
 
 git remote add origin "github.com/your.repo.git"
 
-git push -u origin master
+git push -f origin master
 
 ​
 [출처] [github] error : src refspec master does not match any 해결방법|작성자 Great
