@@ -3,7 +3,26 @@ git init
 
 git remote add origin 주소
 
+git remote rm origin 로 (재정정) 하고 난 후, 다시 git remote add origin 주소
+
 git pull origin master
+
+[에러]
+문제 : 처음 깃허브 사용시 error : src refspec master does not match any 와 같은 에러가 발생
+해결 : 
+
+git init
+
+git add .
+
+git commit -m "message"
+
+git remote add origin "github.com/your.repo.git"
+
+git push -u origin master
+
+​
+[출처] [github] error : src refspec master does not match any 해결방법|작성자 Great
 
 
 [Pull]
